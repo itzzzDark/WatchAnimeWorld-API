@@ -1,6 +1,6 @@
 # AnimeSalt Scraper API
 
-![Favicon](public/favicon.png)
+![Favicon](public/AnimeSalt.png)
 
 A Node.js and Express-powered RESTful API designed to scrape and extract data from AnimeSalt.
 
