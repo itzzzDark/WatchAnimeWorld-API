@@ -3,15 +3,15 @@
 
 A Node.js and Express-powered RESTful API designed to scrape and extract data from AnimeSalt.
 
-## Screenshot
+### Screenshot
 
 ![Homepage Screenshot](public/home.jpg)
 
-## ⚠️ Legal Disclaimer
+### ⚠️ Legal Disclaimer
 
 **This API is provided for educational and research purposes only.** Users are responsible for ensuring their use complies with all applicable copyright laws and terms of service. The developers do not endorse or facilitate piracy. All content accessed through this API remains the property of its respective copyright holders. Use responsibly and respect intellectual property rights.
 
-## Features
+### Features
 
 - 🎬 Extract home page content (newest drops, trending, etc.)
 - 📺 Get detailed information about series and movies
@@ -24,12 +24,12 @@ A Node.js and Express-powered RESTful API designed to scrape and extract data fr
 - 🛡️ Security middleware (Helmet, CORS, Rate Limiting)
 - 📄 Beautiful HTML error pages (403, 404)
 
-## Prerequisites
+### Prerequisites
 
 - Node.js >= 18.0.0
 - npm or yarn
 
-## Installation
+### Installation
 
 1. Clone the repository:
 ```bash
@@ -58,7 +58,7 @@ npm run dev
 npm start
 ```
 
-## Configuration
+### Configuration
 
 Create a `.env` file in the root directory with the following variables:
 
@@ -77,7 +77,7 @@ CORS_ORIGIN=https://example.com,https://another.com
   - Or specify comma-separated list: `https://example.com,https://another.com`
   - Requests without matching origin/referer will be blocked with 403
 
-## API Endpoints
+### API Endpoints
 
 All endpoints are prefixed with `/api` and require a valid origin/referer header (unless `CORS_ORIGIN=*`).
 
